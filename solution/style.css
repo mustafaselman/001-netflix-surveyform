@@ -1,23 +1,23 @@
- /* container */
- * {
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
- body{
-    Width:1440px;
-    Height:1096px;
+}
+body {
+    Width: 1440px;
+    Height: 1096px;
 
-} 
+}
 #container {
-        position: absolute;
-        width: 1240px;
-        height: 1036px;
-        top: 30px;
-        left: 100px;
-        background: #000000;
-        opacity: 0.3;
-        
+    position: absolute;
+    width: 1240px;
+    height: 1036px;
+    top: 30px;
+    left: 100px;
+    background: #000000;
+    opacity: 0.3;
+
 }
 .title-fonts {
     font-family: 'Bowlby One SC', cursive;
@@ -25,7 +25,7 @@
     color: #ffffff;
     font-weight: 400;
     font-size: 50px;
-    line-height: 0%;
+    line-height: 0;
 }
 .red-title {
     color: red;
@@ -49,7 +49,7 @@
     font-style: italic;
     font-weight: 400;
     font-size: 23px;
-    line-height: 0%;
+    line-height: 0;
     display: flex;
     align-items: center;
     text-align: center;
@@ -108,7 +108,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#email{
+#email {
     width: 420px;
     height: 60px;
     padding: 10px;
@@ -128,8 +128,7 @@
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
-    
+
 }
 #button-type {
     width: 140px;
@@ -141,17 +140,14 @@
     border-radius: 50px;
     align-self: center;
     color: white;
-    
-    
+
 }
 .movietype-border {
-    margin: 30px 0px;
+    margin: 30px 0;
 }
 .gender-border {
-    margin: 30px 0px;
+    margin: 30px 0;
 }
 .feedbacktype-border {
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0 0;
 }
-
-
