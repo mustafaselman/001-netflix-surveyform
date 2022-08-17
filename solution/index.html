@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Netflix Project">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Mustafa Selman Önal">
+    <title>Netflix Project</title>
+    <meta >
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section>
+        <!--burası opacity bölümü -->
+        <div id="container"></div>
+    </section>
+    <section>
+        <!--burası title bölümü 1-netflıx ayazı byer 2-açıklama 1-yeri 2
+        fontu-->
+        <div id="title"  class="title-fonts title-section">
+            NET<span class="red-title">FLIX</span>
+        </div>
+        <div id="description" class="description-fonts description-section">
+            Thank you for signing up at Netflix. Tell us more about yourself.
+    </section>
+    <section>
+<!-- burası survey form siyah arka planı -->
+        <div id="survey-form"></div>
+    </section>
+    <section>
+        <!--burası ana kayıt bolumu Name-label<age-label
+        <email-label<movie-type-list<gender-feedback submit-->
+        <form class="label-section label-fonts">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="enter your name">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="age">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="enter your Email">
+            <label for="content-type">Content Type</label>
+            <select name="content-type" id="content-type">
+                <option value="Series">Series</option>
+            </select>
+            
+            <div class="movietype-border">
+                <label for="movie-type">Movie Type</label><br>
+                <input type="checkbox" name="comedy" id="comedy">
+                Comedy<br>
+                <input type="checkbox" name="action" id="action">
+                Action<br>
+                <input type="checkbox" name="romance" id="romance">
+                Romance
+            </div>
+            <div class="gendertype-border">
+                <label for="gender">Gender</label><br>
+                <input type="radio" name="gender" value="male">
+                Male <br>
+                <input type="radio" name="gender" value="female">
+                Female <br>
+                <input type="radio" name="gender" value="other">
+                Other
+            </div>  
+            <div class="feedbacktype-border">
+                <label for="feedback">Feedback</label>
+                <textarea name="comment" id="textarea-type">any comment
+                </textarea>
+            </div>
+            
+            <button type="button" id="button-type">Send</button>
+
+        </form>
+    </section>
+        
+  <img src="/background_image.jpg" alt="netflix arka plan" width="100%" height="100%">
+</body>
+</html>
