@@ -21,9 +21,7 @@ body {
 }
 .title-fonts {
     font-family: 'Bowlby One SC', cursive;
-    font-style: normal;
     color: #ffffff;
-    font-weight: 400;
     font-size: 50px;
     line-height: 0;
 }
@@ -33,39 +31,23 @@ body {
 .title-section {
     position: absolute;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     width: 1240px;
     top: 90px;
     left: 100px;
-    background-position: center;
-    justify-items: center;
-    align-items: center;
     justify-content: center;
 }
 .description-fonts {
     font-family: 'Sorts Mill Goudy', serif;
     color: white;
-    font-style: italic;
-    font-weight: 400;
     font-size: 23px;
     line-height: 0;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
 }
 .description-section {
     position: absolute;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     width: 1240px;
     top: 165px;
     left: 100px;
-    background-position: center;
-    justify-items: center;
-    align-items: center;
     justify-content: center;
 }
 #survey-form {
@@ -74,80 +56,47 @@ body {
     height: 847px;
     top: 200px;
     left: 465px;
-    justify-content: center;
     background-color: #000000;
 }
 .label-section {
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
     width: 400px;
     top: 220px;
     left: 500px;
-    background-position: center;
-    justify-items: center;
 }
 .label-fonts {
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
 }
 
-#name {
-    width: 420px;
-    height: 60px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#age {
-    width: 420px;
-    height: 60px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#email {
-    width: 420px;
-    height: 60px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#content-type {
-    width: 420px;
-    height: 60px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+#age,
+#content-type,
+#email,
+#name,
 #textarea-type {
     width: 420px;
     height: 60px;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 #button-type {
     width: 140px;
     height: 60px;
-    padding: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
     background-color: red;
     border-radius: 50px;
     align-self: center;
     color: white;
 
 }
+.gender-border,
 .movietype-border {
     margin: 30px 0;
 }
-.gender-border {
-    margin: 30px 0;
-}
+
 .feedbacktype-border {
     margin: 30px 0 0;
 }
